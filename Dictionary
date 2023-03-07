@@ -1,0 +1,23 @@
+
+Spiderman = {"Name" : "Peter Parker", 
+      "Weapons" : ["Webbing"],
+      "Super Powers" : ["Speed", "Reflexes", "Spider-Sense"], 
+      "Weaknesses" : ["Ethyl Chloride Pesticide"] }
+
+# Tuesday Entry Slip 
+#Question 1 (   /1)
+print(Spiderman["Name"])
+#Question 2 (   /1)
+print(Spiderman["Super Powers"][2]
+#Question 3 (   /1)
+print(Spiderman["Weapons"][0])
+
+#Question 1 (   /3)
+for keys in Spiderman:
+  if keys == "Super Powers":
+    for value in Spiderman[keys]:
+      print(f"Spidermans Super Power: {value} ")
+
+# Make Database and assign printing and formating assignment.
+    
+  
